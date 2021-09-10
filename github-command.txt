@@ -1,0 +1,22 @@
+/c/Users/bhama/.ssh/id_ed25519.pub
+
+
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFZS93vmpM0umSTvhuwwmsp2CuzD2BRi5ZTMgbD4SNZ+ madhuri.bhamare94@gmail.com
+
+
+
+1. git config --global user.email "madhuri.bhamare94@gmail.com"
+2. touch .gitignore
+3. git init
+4. git add. 
+5. git commit -m "initial commit"
+6. git status
+7. ssh-keygen -t ed25519 -C "madhuri.bhamare94@gmail.com"
+8. cat /c/Users/bhama/.ssh/id_ed25519.pub                  #Add this key to your github account
+9. git remote add origin <Path of the git repo>
+10. git push origin master
+
+
+
+
